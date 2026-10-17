@@ -1,6 +1,8 @@
+import './TourCard.css'
+
 function TourCard({ nombre, duracion, precio }) {
     return (
-        <article>
+        <article className="tour-card">
             <h3>{nombre}</h3>
             <p>{duracion}</p>
             <p>Desde {precio}</p>
